@@ -65,7 +65,28 @@ Conclusion :
 
 From this practical, we learned that both iterative and recursive methods can be used to calculate the factorial of a number. Both methods have O(n) time complexity, but their space requirements are different. The iterative method uses less memory and is more memory efficient, while the recursive method is useful for understanding the concept of recursion. We also learned how to calculate and compare the execution time of both methods.
 
-PRACTICAL 7: 
+PRACTICAl 5:
+
+Summary :
+
+In this practical, we implemented the 0/1 Knapsack problem using Dynamic Programming. The problem is used to select items with given weights and values so that the total weight does not exceed the given capacity while obtaining the maximum possible value. Dynamic Programming solves the problem by dividing it into smaller subproblems and storing their results in a DP table. This avoids repeated calculations and makes the solution more efficient.
+
+Conclusion :
+
+The 0/1 Knapsack problem was successfully implemented using Dynamic Programming. The algorithm finds the maximum value that can be obtained within the given capacity. The time complexity of the algorithm is O(nW) and the space complexity is O(nW), where n is the number of items and W is the knapsack capacity. Thus, Dynamic Programming provides an efficient approach for solving the Knapsack problem.
+
+PRACTICAL 6:
+
+Summary :
+
+In this practical, we implemented Chain Matrix Multiplication using Dynamic Programming. The main objective is to find the best order of multiplying a sequence of matrices so that the total number of scalar multiplications is minimized. Dynamic Programming divides the problem into smaller subproblems and stores their results in a table to avoid repeated calculations.
+
+Conclusion :
+
+The Chain Matrix Multiplication problem was successfully implemented using Dynamic Programming. The algorithm finds the minimum number of multiplications required to multiply a chain of matrices efficiently. The time complexity of the algorithm is O(n³) and the space complexity is O(n²). Thus, Dynamic Programming provides an efficient method for solving the matrix chain multiplication problem.
+
+PRACTICAL 7:
+
 Summary :
 
 The Making Change Problem was implemented using the Dynamic Programming technique. The main objective of the program is to find the minimum number of coins required to make a given amount. The program uses a dp array to store the minimum coins needed for each amount from 0 to the given amount. By using previously calculated values, repeated calculations are avoided and the solution becomes more efficient.
@@ -75,3 +96,28 @@ Time Complexity: O(n × amount) Space Complexity: O(amount)
 Conclusion :
 
 The Dynamic Programming approach provides an efficient solution to the Making Change Problem. It follows the concept of optimal substructure and overlapping subproblems. By storing the solutions of smaller amounts, the program can quickly calculate the solution for the required amount. This method is more efficient than checking all possible combinations. Therefore, Dynamic Programming is a useful technique for solving optimization problems such as the minimum coin change problem.
+
+PRACTICAL 8:
+
+Summary : In this practical, a graph was implemented using an adjacency list in C++. Two important graph traversal techniques, DFS (Depth First Search) and BFS (Breadth First Search), were implemented. DFS explores a vertex as deeply as possible before backtracking, while BFS explores vertices level by level using a queue.
+
+Conclusion The practical demonstrates how graphs can be represented and traversed efficiently using DFS and BFS. DFS is useful for exploring paths and connected components, while BFS is useful for level-order traversal and finding the shortest path in an unweighted graph. Both algorithms have a time complexity of O(V + E) when an adjacency-list representation is used.
+
+PRACTICAL 9:
+
+Summary :
+
+Prim’s Algorithm is a greedy algorithm used to find the Minimum Spanning Tree (MST) of a connected weighted graph. It starts from one vertex and repeatedly selects the minimum-weight edge that connects a vertex in the MST to a vertex outside the MST. This process continues until all vertices are included.
+
+PRACTICAL 10:
+
+Summary : Kruskal’s algorithm is a greedy algorithm used to find the Minimum Spanning Tree (MST) of a weighted, undirected graph. It sorts the edges in ascending order of their weights and selects the smallest edges without forming a cycle until V − 1 V−1 edges are selected.
+
+Conclusion Thus, Kruskal’s algorithm was successfully implemented in C++. It finds the Minimum Spanning Tree with the minimum total edge weight. This practical helped us understand the greedy approach and how to avoid cycles while selecting edges in a graph.
+
+PRACTICAL 11 :
+
+Summary : The Floyd-Warshall algorithm is an important graph algorithm used to find the shortest distances between every pair of vertices in a weighted graph. It is based on the concept of dynamic programming. The algorithm checks all possible intermediate vertices and updates the distance matrix whenever a shorter path is found. It can handle positive and negative edge weights, but it does not work correctly when the graph contains a negative-weight cycle. The algorithm is simple to implement and is useful in network routing, transportation systems, and pathfinding applications. Its time complexity is (O(n^3)), and its space complexity is (O(n^2)).
+
+Conclusion Thus, the Floyd-Warshall algorithm was successfully implemented using C++. The program calculates the shortest distances between all pairs of vertices by repeatedly comparing the existing distance with the distance through an intermediate vertex. The final distance matrix provides the minimum distance between each pair of vertices. This practical helped in understanding the dynamic programming approach and its application to graph problems.
+
